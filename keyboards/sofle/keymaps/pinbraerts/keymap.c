@@ -53,6 +53,8 @@ static char const* os_to_string(os_variant_t os) {
 }
 #endif // OS_DETECTION_ENABLE
 
+#define RETRO_TAPPING
+
 enum custom_keys {
     KC_ESCTL = MT(MOD_LCTL, KC_ESC),
     KC_SPSHT = MT(MOD_LSFT, KC_SPACE),
